@@ -1,3 +1,76 @@
-body {
-  background: lightblue;
+
+
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas'), url('BEBAS__.ttf') format('ttf');
+}
+
+body{
+  margin: 0;
+}
+h1, h2{
+  text-align: center;
+}
+.splashscreen {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1442261350644-d746b4750d4c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fd9e96b92de065110d6640390fc6e4f6");
+  background-size: cover;
+
+
+}
+.background {
+  height: 100vh;
+  position: relative;
+  background-color: rgba(8, 8, 8, 0.3);
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+}
+h1{
+  font-size: 10em;
+  font-family: 'Bebas Neue';
+  margin: 0;
+}
+h2{
+  font-size: 3em;
+}
+i.chevron {
+    text-align: center;
+    width: 100%;
+    font-size: 7rem;
+    position:absolute;
+    bottom: 1%;
+    color: white
+}
+.colonnes {
+  width: 100%;
+  position: relative;
+}
+.col {
+  width:33.3333%;
+  float: left;
+}
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+.nav{
+  position: absolute;
+
+}
+.menu{
+  display: inline;
+  float: left;
+}
+
+.button{
+  color: red;
 }
